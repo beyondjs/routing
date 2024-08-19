@@ -1,0 +1,28 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BeyondJS DevServer",
+			"runtimeArgs": ["run"],
+			"runtimeExecutable": "beyond"
+		},
+		{
+			"name": "Launch Edge with DevTools",
+			"type": "edge",
+			"request": "launch",
+			"url": "http://localhost:8080",
+			"webRoot": "${workspaceFolder}",
+			"browser": "edge",
+			"sourceMaps": true,
+			"breakOnLoad": false,
+			"pathMapping": {
+				"/": "${webRoot}"
+			}
+		}
+	]
+}
