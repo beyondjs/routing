@@ -2,7 +2,7 @@
 	"name": "@beyond-js/routing",
 	"version": "0.0.1",
 	"title": "BeyondJS Routing",
-	"description": "",
+	"description": "A versatile client-side routing package for Beyond.js, supporting both hash and pathname modes with seamless navigation and history management.",
 	"license": "ISC",
 	"template": "template/template.json",
 	"languages": {
