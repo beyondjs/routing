@@ -1,6 +1,4 @@
-Here is a detailed `README.md` file for the `beyond-js/routing` package based on the code provided:
 
-````markdown
 # Beyond.js Routing
 
 The `beyond-js/routing` package is a versatile client-side routing solution designed for modern web applications. It
